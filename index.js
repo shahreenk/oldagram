@@ -33,7 +33,7 @@ let hearts = [];
 
 for (let i = 0; i < posts.length; i++) {
     main.innerHTML += `
-    <div id=mclass="poster-info">
+    <div id class="poster-info">
         <img class="avatar" src="${posts[i].avatar}" alt="artist's avatar">
         <div>
             <p class="name bolded">${posts[i].name}</p>
