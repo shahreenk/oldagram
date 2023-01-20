@@ -42,11 +42,11 @@ for (let i = 0; i < posts.length; i++) {
     </div>
     <img class="img-post" src="${posts[i].post}" alt="artist's selfie" />
     <div class="post-details">
-    <img id="heart-${i}" class="icon" src="images/icon-heart.png" alt="like icon">
-    <img class="icon" src="images/icon-comment.png" alt="comment icon">
-    <img class="icon" src="images/icon-dm.png" alt="direct message icon">
-    <p id="likes-${i}" class="bolded">${posts[i].likes} likes</p>
-    <p><span class="bolded">${posts[i].username}</span> ${posts[i].comment}</p>
+        <img id="heart-${i}" class="icon" src="images/icon-heart.png" alt="like icon">
+        <img class="icon" src="images/icon-comment.png" alt="comment icon">
+        <img class="icon" src="images/icon-dm.png" alt="direct message icon">
+        <p id="likes-${i}" class="bolded">${posts[i].likes} likes</p>
+        <p><span class="bolded">${posts[i].username}</span> ${posts[i].comment}</p>
     </div>
     `
     hearts.push(`heart-${i}`);
